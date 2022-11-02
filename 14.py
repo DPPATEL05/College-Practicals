@@ -1,0 +1,20 @@
+S = {1, 'Hello', 3, "Hello"}
+S1 = {"You", 6, "Him", 3}
+L = ["World"]
+print(S)
+S.add(4)
+print(S)
+S.update(L)
+print(S)
+S.remove("World")
+print(S)
+S.pop()
+print(S)
+S2 = S.union(S1)
+print(S2)
+S2 = S.intersection(S, S1)
+print(S2)
+S2 = S.difference(S1)
+print(S2)
+S2= S.symmetric_difference(S1)
+print(S2)
