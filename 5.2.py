@@ -1,5 +1,8 @@
-a=[1,2,3,4,5,6,7,8,9,0]
+a=[]
+print("Enter 10 numbers: ")
+for i in range(0,10):
+    a.append(int(input()))
+
 for i in a:
     for j in a:
-        if(i!=j):
-            print(i,j)
+        print(i,j)
