@@ -1,5 +1,5 @@
 n = 5
-for i in range(0,n):
+for i in range(0,n+1):
     space = n - i
     for k in range(0, space):
         print(end=" ")
